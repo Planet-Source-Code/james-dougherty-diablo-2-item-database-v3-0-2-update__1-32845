@@ -1,0 +1,250 @@
+[Root]
+Most Recent Package=Setup
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\My Documents\Diablo 2 Item Database\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=
+
+[Package|Standard Setup Package 1|Files Added]
+C:\My Documents\Diablo 2 Item Database\didDoc2.ico=
+C:\My Documents\Diablo 2 Item Database\Example.did=
+C:\My Documents\Diablo 2 Item Database\Resource.ini=
+C:\My Documents\Diablo 2 Item Database\Readme.txt=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\My Documents\Diablo 2 Item Database\Diablo2 Item Database.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=Yes
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\Msmask32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\My Documents\Diablo 2 Item Database\didDoc2.ico=Yes
+C:\My Documents\Diablo 2 Item Database\Example.did=Yes
+C:\My Documents\Diablo 2 Item Database\Resource.ini=Yes
+C:\My Documents\Diablo 2 Item Database\Readme.txt=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\My Documents\Diablo 2 Item Database\Diablo2 Item Database.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Msmask32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\My Documents\Diablo 2 Item Database\didDoc2.ico=$(AppPath)
+C:\My Documents\Diablo 2 Item Database\Example.did=$(AppPath)
+C:\My Documents\Diablo 2 Item Database\Resource.ini=$(AppPath)
+C:\My Documents\Diablo 2 Item Database\Readme.txt=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\My Documents\Diablo 2 Item Database\Diablo2 Item Database.exe=No
+C:\My Documents\Diablo 2 Item Database\didDoc2.ico=No
+C:\My Documents\Diablo 2 Item Database\Example.did=No
+C:\My Documents\Diablo 2 Item Database\Resource.ini=No
+C:\My Documents\Diablo 2 Item Database\Readme.txt=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Diablo2 Item Database - For KSMD Members
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Diablo2 Item Database
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Diablo2 Item Database]
+Icon1="Diablo2 Item Database.exe"
+Title1=Diablo2 Item Database
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\My Documents\Diablo 2 Item Database\Package
+ProjectFolder=C:\My Documents\Diablo 2 Item Database
+ServerSideCab=
+File1=C:\My Documents\Diablo 2 Item Database\Package\setup.exe
+File2=C:\My Documents\Diablo 2 Item Database\Package\Setup.Lst
+File3=C:\My Documents\Diablo 2 Item Database\Package\Diablo2 Item Database.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\My Documents\Diablo 2 Item Database V3.02\Setup
+
+[Package|Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Setup|Files Found]
+didDoc2.ico=C:\My Documents\Diablo 2 Item Database V3.02\Setup\didDoc2.ico
+
+[Package|Setup|Files Released]
+
+[Package|Setup|Missing Dependency Information]
+C:\My Documents\Diablo 2 Item Database V3.02\prjChameleon.ocx=
+
+[Package|Setup|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=
+
+[Package|Setup|Files Added]
+diddoc2.ico=
+example.did=
+resource.ini=
+readme.txt=
+
+[Package|Setup|Files Removed]
+
+[Package|Setup|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=Yes
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\Msmask32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\My Documents\Diablo 2 Item Database V3.02\Diablo2 Item Database.exe=Yes
+C:\My Documents\Diablo 2 Item Database V3.02\prjChameleon.ocx=Yes
+C:\My Documents\Diablo 2 Item Database V3.02\Setup\didDoc2.ico=Yes
+C:\My Documents\Diablo 2 Item Database V3.02\Setup\Example.did=Yes
+C:\My Documents\Diablo 2 Item Database V3.02\Setup\Resource.ini=Yes
+C:\My Documents\Diablo 2 Item Database V3.02\Setup\Readme.txt=Yes
+
+[Package|Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Setup|Install Locations]
+C:\My Documents\Diablo 2 Item Database\Diablo2 Item Database.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Msmask32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\My Documents\Diablo 2 Item Database\didDoc2.ico=$(AppPath)
+C:\My Documents\Diablo 2 Item Database\Example.did=$(AppPath)
+C:\My Documents\Diablo 2 Item Database\Resource.ini=$(AppPath)
+C:\My Documents\Diablo 2 Item Database\Readme.txt=$(AppPath)
+C:\My Documents\Diablo 2 Item Database V3.02\Diablo2 Item Database.exe=$(AppPath)
+C:\My Documents\Diablo 2 Item Database V3.02\prjChameleon.ocx=$(WinSysPath)
+C:\My Documents\Diablo 2 Item Database V3.02\Setup\didDoc2.ico=$(AppPath)
+C:\My Documents\Diablo 2 Item Database V3.02\Setup\Example.did=$(AppPath)
+C:\My Documents\Diablo 2 Item Database V3.02\Setup\Resource.ini=$(AppPath)
+C:\My Documents\Diablo 2 Item Database V3.02\Setup\Readme.txt=$(AppPath)
+
+[Package|Setup|Configure Shared Files]
+Applicable=Yes
+C:\My Documents\Diablo 2 Item Database\Diablo2 Item Database.exe=No
+C:\My Documents\Diablo 2 Item Database\didDoc2.ico=No
+C:\My Documents\Diablo 2 Item Database\Example.did=No
+C:\My Documents\Diablo 2 Item Database\Resource.ini=No
+C:\My Documents\Diablo 2 Item Database\Readme.txt=No
+C:\My Documents\Diablo 2 Item Database V3.02\Diablo2 Item Database.exe=No
+C:\My Documents\Diablo 2 Item Database V3.02\Setup\didDoc2.ico=No
+C:\My Documents\Diablo 2 Item Database V3.02\Setup\Example.did=No
+C:\My Documents\Diablo 2 Item Database V3.02\Setup\Resource.ini=No
+C:\My Documents\Diablo 2 Item Database V3.02\Setup\Readme.txt=No
+
+[Package|Setup|Distribution]
+Type=single
+Size=
+Title=Diablo2 Item Database V3.0.2
+
+[Package|Setup|IconGroups]
+Group0=Diablo2 Item Database
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Setup|Diablo2 Item Database]
+Icon1="Diablo2 Item Database.exe"
+Title1=Diablo2 Item Database
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Setup|Package]
+PackageFolder=C:\My Documents\Diablo 2 Item Database V3.02\Setup
+ProjectFolder=C:\My Documents\Diablo 2 Item Database V3.02
+ServerSideCab=
+File1=C:\My Documents\Diablo 2 Item Database V3.02\Setup\setup.exe
+File2=C:\My Documents\Diablo 2 Item Database V3.02\Setup\Setup.Lst
+File3=C:\My Documents\Diablo 2 Item Database V3.02\Setup\Diablo2 Item Database.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
